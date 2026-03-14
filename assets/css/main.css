@@ -1801,3 +1801,165 @@ body.is-article-visible #footer {
 body.is-preload #footer {
   opacity: 0;
 }
+
+svg path {
+  fill: white !important;
+}
+
+/* ============================================================
+   DOS-E&A Professional Overhaul Styles
+   ============================================================ */
+
+/* --- Logo fix: display SVG image inside circular container --- */
+#header .logo {
+  border-color: #c69a3a;
+  background: rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header .logo .logo-img {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+  display: block;
+}
+
+/* --- Gold accent on major headings --- */
+h1.major,
+h2.major,
+h3.major,
+h4.major {
+  border-bottom-color: #c69a3a;
+}
+
+#main article h2.major {
+  border-bottom: solid 1px #c69a3a;
+}
+
+/* --- Primary button: gold/bronze --- */
+input[type="submit"].primary,
+input[type="reset"].primary,
+input[type="button"].primary,
+button.primary,
+.button.primary {
+  background-color: #c69a3a;
+  color: #ffffff !important;
+  font-weight: 600;
+  box-shadow: none;
+  border: 0;
+}
+
+input[type="submit"].primary:hover,
+input[type="reset"].primary:hover,
+input[type="button"].primary:hover,
+button.primary:hover,
+.button.primary:hover {
+  background-color: #d4aa50;
+  color: #ffffff !important;
+}
+
+input[type="submit"].primary:active,
+input[type="reset"].primary:active,
+input[type="button"].primary:active,
+button.primary:active,
+.button.primary:active {
+  background-color: #b8862e;
+}
+
+/* --- Form focus: gold accent border --- */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #c69a3a;
+  box-shadow: 0 0 0 1px #c69a3a;
+  background: rgba(198, 154, 58, 0.05);
+}
+
+/* --- Footer copyright: readable size --- */
+#footer .copyright {
+  font-size: 0.7rem;
+  letter-spacing: 0.15rem;
+  opacity: 0.75;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+/* --- Services list: gold left-border treatment --- */
+.services-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 2rem 0;
+}
+
+.services-list li {
+  border-left: 2px solid #c69a3a;
+  padding: 0.5rem 0 0.5rem 1.1rem;
+  margin-bottom: 1.4rem;
+  line-height: 1.6;
+}
+
+.services-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* --- Industry list: clean spaced styling --- */
+.industry-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.industry-list li {
+  padding: 0.25rem 0 0.25rem 0.75rem;
+  border-left: 2px solid rgba(198, 154, 58, 0.5);
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+}
+
+/* --- Contact details list: clean alignment --- */
+.contact-details {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 2rem 0;
+}
+
+.contact-details li {
+  padding: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+/* --- Nav hover: subtle gold tint --- */
+#header nav ul li a:hover {
+  background-color: rgba(198, 154, 58, 0.12);
+}
+
+/* --- Header nav border: gold accent --- */
+#header nav ul {
+  border-color: rgba(198, 154, 58, 0.6);
+}
+
+#header nav ul li {
+  border-left-color: rgba(198, 154, 58, 0.4);
+}
+
+/* --- Subtle gold glow on logo border --- */
+#header .logo {
+  box-shadow: 0 0 0 1px rgba(198, 154, 58, 0.3), 0 0 20px rgba(198, 154, 58, 0.08);
+}
+
+/* --- Article background: slightly warmer dark --- */
+#main article {
+  background-color: rgba(20, 18, 14, 0.88);
+}
+
+/* --- About section image: slightly tighter margin --- */
+#about .image.main {
+  margin: 1.5rem 0 2rem 0;
+}
