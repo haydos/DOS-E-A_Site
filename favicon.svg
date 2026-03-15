@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="4" fill="#1a1a1a"/>
+  <!--
+    D letterform: vertical bar (x 7–13) + right-hand bowl arc.
+    Arc centre (13, 16), radius 11 — rightmost point x=24.
+    Path: top-left → down left side → bottom of bar → arc (sweep rightward) → top of bar → close.
+  -->
+  <path d="M 7 5 L 7 27 L 13 27 A 11 11 0 0 0 13 5 Z" fill="#c69a3a"/>
+</svg>
